@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   // templateUrl: './test5.component.html',
   template:
   `
-  <h1 style="color:red"> Style binding</h1>
+  <h1 style="color:red"> Style binding Examples</h1>
   <h1 [style.color]="favColor"> Some Heading </h1>
   <h1 [style.color]="hasError ? 'red' : 'green'"> Other Heading </h1>
   <h1> ng Style</h1>
